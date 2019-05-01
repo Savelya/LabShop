@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="auth-form">
+    <label for="name" class="auth-form_label">Название</label>
+
+    <div class="auth-form_input">
+        <input
+                id="name"
+                type="text"
+                name="name"
+        />
+    </div>
+
+    <label for="manufacturer" class="auth-form_label">Производитель</label>
+
+    <div class="auth-form_input">
+        <input
+                id="manufacturer"
+                type="text"
+                name="manufacturer"
+        />
+    </div>
+
+    <label for="price" class="auth-form_label">Цена</label>
+
+    <div class="auth-form_input">
+        <input
+                id="price"
+                type="text"
+                name="price"
+        />
+    </div>
+
+
+    <button  onclick="Add()" class="auth-form_button">
+        Добавить товар в таблицу
+    </button>
+
+    <button onclick="Info()" class="auth-form_button">
+        Информация о товаре
+    </button>
+
+    <button onclick="Del()" class="auth-form_button">
+        Удалить по названию
+    </button>
+
+    <button onclick="Order()" class="auth-form_button">
+        Продать по названию
+    </button>
+
+    <button onclick="Balance()" class="auth-form_button">
+        Баланс
+    </button>
+
+    <button onclick="Goods()" class="auth-form_button">
+        Список товаров
+    </button>
+
+    <button onclick="Orderget()" class="auth-form_button">
+        Список продаж
+    </button>
+
+
+
+
+</div>
+<script src="script.js">
+
+</script>
+</body>
+</html>

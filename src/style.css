@@ -1,0 +1,36 @@
+body {
+    background-color: #ddd;
+}
+
+.auth-form {
+    width: 350px;
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    height: 650px;
+    padding: 20px;
+}
+
+.auth-form_button {
+    display: inline;
+    font-size: 18px;
+    height: 100px;
+    width: 150px;
+    border-radius: 3px;
+    margin: 10px    ;
+    background-color: chocolate;
+    color: black;
+    cursor: pointer;
+}
+
+.auth-form_label {
+    display: block;
+    padding: 5px;
+}
+
+.auth-form_input {
+
+}
