@@ -1,7 +1,3 @@
-# Awesome Project Build with TypeORM
-        
-Steps to run this project:
+Лабараторная работа.
+Реализован магазин с сервером и клиентом. Вся информация хранится в базе данных. Для подключения к базе данных используется TypeORM.
 
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
